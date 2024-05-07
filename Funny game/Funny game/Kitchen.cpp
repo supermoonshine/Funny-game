@@ -4,7 +4,7 @@
 
 void Kitchen::enter() {
 	cout << "You are in ther Kitchen." << endl;
-	cout << "Now you can opening refrigerator." << endl;
+	cout << "Now you can open refrigerator." << endl;
 	RG();
 }
 
@@ -12,7 +12,7 @@ void Kitchen::RG() {
 	string item;
 	cout << "You cna find banana, ice cream, milk, iced black tea, cash." << endl;
 	cout << "Please enter the item you want:";
-	cin >> item; //輸入想要的東西
+	cin >> item; //聶矇瞻J繚Q簫n穠繙穠F礎癡
 
 	if (item == "cash") {
 		cout << "You have been ambushed by a thief!" << endl << "You've been killed!" << endl;
