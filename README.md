@@ -1,3 +1,1 @@
-a easy string game
-interesting
-funny
+###組別號碼: 25
