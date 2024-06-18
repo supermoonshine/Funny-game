@@ -10,19 +10,25 @@ void Kitchen::enter() {
 
 void Kitchen::RG() {
 	string item;
-	cout << "You cna find banana, ice cream, milk, iced black tea, cash." << endl;
+	cout << "You cna find banana, milk, iced_black_tea, cash." << endl;
 	cout << "Please enter the item you want:";
-	cin >> item; //Â¿Ã©Â¤JÂ·QÂ­nÂªÂºÂªFÂ¦Ã¨
+	cin >> item; //¿é¤J·Q­nªºªF¦è
 
 	if (item == "cash") {
 		cout << "You have been ambushed by a thief!" << endl << "You've been killed!" << endl;
 		cout << "You lost!!!" << endl;
 		exit(0);
 	}
-	else {
+	else if (item == "banana") {
 		cout << "You have take: " << item << endl;
-		cout << "Returning to the living room." << endl;
+		cout << "Yummy." << endl;
 	}
-	
-	
+	else if (item == "milk") {
+		cout << "You have take: " << item << endl;
+		cout << "Awesome!" << endl;
+	}
+	else if (item == "iced_black_tea") {
+		cout << "You have take: " << item << endl;
+		cout << "Tasty!" << endl;
+	}
 }

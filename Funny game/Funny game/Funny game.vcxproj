@@ -133,6 +133,8 @@
     <ClInclude Include="Room.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BathRoom.cpp" />
+    <ClCompile Include="BedRoom.cpp" />
     <ClCompile Include="Kitchen.cpp" />
     <ClCompile Include="LivingRoom.h" />
     <ClCompile Include="LivingRoom.cpp" />

@@ -6,5 +6,7 @@
 class BedRoom : public Room {
 public:
 	void enter() override;
+	void sleep();
+	void play_games();
 };
 #endif

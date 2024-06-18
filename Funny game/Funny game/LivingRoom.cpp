@@ -27,7 +27,7 @@ void LivingRoom::Menu() {
 			kitchen.enter();
 			break;
 		}
-		/*case 2: {
+		case 2: {
 			BathRoom bathroom;
 			bathroom.enter();
 			break;
@@ -36,7 +36,7 @@ void LivingRoom::Menu() {
 			BedRoom bedroom;
 			bedroom.enter();
 			break;
-		}*/
+		}
 		case 4:
 			cout << "Exiting the game." << endl;
 			exit(0);

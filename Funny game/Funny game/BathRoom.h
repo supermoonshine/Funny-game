@@ -6,5 +6,7 @@
 class BathRoom : public Room {
 public:
 	void enter() override;
+	void bath();
+
 };
 #endif
